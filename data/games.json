@@ -1,0 +1,112 @@
+{
+    "title": "Kids Gaming Paradise",
+    "tagline": "Where Learning Meets Fun!",
+    "description": "Educational games and activities for children ages 10-15",
+    "countdownTarget": "2025-12-25T00:00:00Z",
+    "games": [
+        {
+            "id": 1,
+            "name": "Math Adventure Quest",
+            "description": "Embark on an epic journey through magical lands while solving math puzzles and challenges!",
+            "thumb": "https://images.unsplash.com/photo-1606092195730-5d7b9af1efc5?w=300&h=200&fit=crop",
+            "difficulty": "Medium",
+            "category": "Educational",
+            "ageRange": "10-13",
+            "url": "#game1",
+            "featured": true,
+            "tags": ["math", "adventure", "puzzle"]
+        },
+        {
+            "id": 2,
+            "name": "Word Wizard Castle",
+            "description": "Build your vocabulary and spelling skills in this enchanting castle full of word games and challenges!",
+            "thumb": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=300&h=200&fit=crop",
+            "difficulty": "Easy",
+            "category": "Language",
+            "ageRange": "10-15",
+            "url": "#game2",
+            "featured": true,
+            "tags": ["vocabulary", "spelling", "words"]
+        },
+        {
+            "id": 3,
+            "name": "Science Lab Escape",
+            "description": "Use your scientific knowledge to escape from a mysterious laboratory in this thrilling puzzle game!",
+            "thumb": "https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=300&h=200&fit=crop",
+            "difficulty": "Hard",
+            "category": "Science",
+            "ageRange": "12-15",
+            "url": "#game3",
+            "featured": false,
+            "tags": ["science", "chemistry", "physics", "escape"]
+        },
+        {
+            "id": 4,
+            "name": "Geography Explorer",
+            "description": "Travel around the world and learn about different countries, capitals, and cultures!",
+            "thumb": "https://images.unsplash.com/photo-1569163139382-de2b9fa71a04?w=300&h=200&fit=crop",
+            "difficulty": "Medium",
+            "category": "Geography",
+            "ageRange": "10-14",
+            "url": "#game4",
+            "featured": true,
+            "tags": ["geography", "world", "countries", "culture"]
+        },
+        {
+            "id": 5,
+            "name": "Code Breaker Academy",
+            "description": "Learn the basics of programming through fun challenges and interactive coding puzzles!",
+            "thumb": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=300&h=200&fit=crop",
+            "difficulty": "Hard",
+            "category": "Programming",
+            "ageRange": "12-15",
+            "url": "#game5",
+            "featured": false,
+            "tags": ["coding", "programming", "logic", "computer"]
+        }
+    ],
+    "categories": [
+        {
+            "name": "Educational",
+            "description": "Games that teach while you play",
+            "color": "#4CAF50"
+        },
+        {
+            "name": "Language",
+            "description": "Improve your vocabulary and language skills",
+            "color": "#2196F3"
+        },
+        {
+            "name": "Science",
+            "description": "Explore the wonders of science",
+            "color": "#FF9800"
+        },
+        {
+            "name": "Geography",
+            "description": "Discover the world around you",
+            "color": "#9C27B0"
+        },
+        {
+            "name": "Programming",
+            "description": "Learn to code with fun activities",
+            "color": "#F44336"
+        }
+    ],
+    "difficulties": [
+        {
+            "level": "Easy",
+            "description": "Perfect for beginners",
+            "color": "#4CAF50"
+        },
+        {
+            "level": "Medium",
+            "description": "For intermediate players",
+            "color": "#FF9800"
+        },
+        {
+            "level": "Hard",
+            "description": "Challenge yourself!",
+            "color": "#F44336"
+        }
+    ]
+}

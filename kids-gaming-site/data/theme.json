@@ -1,0 +1,10 @@
+{
+  "font": "Poppins",
+  "colors": {
+    "primary": "#FFDF00",
+    "accent": "#004040",
+    "bg": "#FFFFFF",
+    "text": "#102A43",
+    "surface": "#F5F7FA"
+  }
+}

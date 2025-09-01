@@ -1,0 +1,31 @@
+{
+  "siteTitle": "Kids Gaming Zone",
+  "tagline": "Play. Learn. Level up.",
+  "countdownTarget": "2025-12-31T23:59:59.000Z",
+  "games": [
+    {
+      "id": "maze-runner",
+      "name": "Maze Runner",
+      "description": "Solve tricky mazes before the clock runs out.",
+      "thumb": "assets/images/maze.jpg",
+      "difficulty": "Medium",
+      "url": "https://example.com/maze"
+    },
+    {
+      "id": "math-blitz",
+      "name": "Math Blitz",
+      "description": "Fast-paced math puzzles to test your skills.",
+      "thumb": "assets/images/math.jpg",
+      "difficulty": "Easy",
+      "url": "https://example.com/math"
+    },
+    {
+      "id": "space-defender",
+      "name": "Space Defender",
+      "description": "Protect the galaxy in this action strategy game.",
+      "thumb": "assets/images/space.jpg",
+      "difficulty": "Hard",
+      "url": "https://example.com/space"
+    }
+  ]
+}

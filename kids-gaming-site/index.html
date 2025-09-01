@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kids Gaming Site</title>
+    <meta name="description" content="Fun, safe, and educational games for kids aged 10–15" />
+    <!-- Favicon is injected from data/branding.json; this default will be updated by scripts.js -->
+    <link id="favicon" rel="icon" href="assets/icons/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Font family is applied dynamically from data/theme.json with a fallback in CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <a href="#" class="brand" aria-label="Homepage">
+          <img id="brand-logo" src="assets/images/logo.png" alt="Site logo" height="48" />
+          <span id="site-title" class="brand-title">Kids Gaming Site</span>
+        </a>
+        <nav class="site-nav" role="navigation" aria-label="Primary">
+          <ul>
+            <li><a href="#games">Games</a></li>
+            <li><a href="#countdown">Events</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="site-main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container hero-inner">
+          <h1 id="hero-title" class="hero-title">
+            <!-- Populated from games.json.siteTitle -->
+            Kids Gaming Site
+          </h1>
+          <p id="hero-tagline" class="hero-tagline">
+            <!-- Populated from games.json.tagline -->
+            Play. Learn. Level up.
+          </p>
+          <div id="countdown" class="countdown" aria-live="polite" aria-atomic="true">
+            <div class="time"><span id="cd-days">0</span><label>Days</label></div>
+            <div class="time"><span id="cd-hours">0</span><label>Hours</label></div>
+            <div class="time"><span id="cd-mins">0</span><label>Minutes</label></div>
+            <div class="time"><span id="cd-secs">0</span><label>Seconds</label></div>
+          </div>
+          <!-- TODO: student exercise – add a CTA button that scrolls to the games list. -->
+        </div>
+      </section>
+
+      <section id="games" class="games" aria-labelledby="games-title">
+        <div class="container">
+          <h2 id="games-title">Featured Games</h2>
+          <div id="games-grid" class="games-grid" role="list">
+            <!-- Cards are injected by scripts.js from data/games.json -->
+          </div>
+          <!-- TODO: student exercise – add search/filter by difficulty. -->
+        </div>
+      </section>
+
+      <section id="about" class="about" aria-labelledby="about-title">
+        <div class="container">
+          <h2 id="about-title">About</h2>
+          <p id="brand-slogan">Designed with passion for innovation.</p>
+          <ul id="social-links" class="social-links" aria-label="Social links">
+            <!-- Social links injected from branding.json -->
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      <div class="container footer-inner">
+        <div class="contact">
+          <h3>Contact</h3>
+          <address>
+            <a id="contact-email" href="mailto:info@example.com">info@example.com</a><br />
+            <a id="contact-mobile" href="tel:+10000000000">+1 000 000 0000</a>
+          </address>
+        </div>
+        <small id="org-name">© <span id="year"></span> Your Organization</small>
+      </div>
+    </footer>
+
+    <script src="scripts.js" defer></script>
+  </body>
+  </html>
